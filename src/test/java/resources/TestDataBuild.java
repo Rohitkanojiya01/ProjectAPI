@@ -35,7 +35,7 @@ public class TestDataBuild {
 	
 	public DeleteInputPayload deletePlacePayLoad(String place_id) {
 		
-		DeleteInputPayload dp = new DeleteInputPayload();
+		DeleteInputPayload dp = new DeleteInputPayload(); // adding comments
 		dp.setPlace_id(place_id);
 		return dp;
 	}
