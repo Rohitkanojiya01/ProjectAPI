@@ -35,8 +35,8 @@ public class TestDataBuild {
 	
 	public DeleteInputPayload deletePlacePayLoad(String place_id) {
 		
-		DeleteInputPayload dp = new DeleteInputPayload(); // changes from codebase at noon
-		dp.setPlace_id(place_id);
+		DeleteInputPayload dp = new DeleteInputPayload(); // changes from codebase at noon		
+		dp.setPlace_id(place_id);                         // from ProjectAPI
 		System.out.println("happy ending with git");
 		return dp;
 	}
